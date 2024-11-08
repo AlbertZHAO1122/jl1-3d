@@ -19,7 +19,7 @@ export default {
   <div class="common-layout">
     <el-container>
       <el-header>
-        <h3>jl1-3d组件库测试页面</h3>
+        <h3>jl1-3d组件测试页面</h3>
       </el-header>
       <el-main style="display: flex" >
         <el-card style="max-width: 220px; margin-left: 30px" @click=toLandDisplayPage >
