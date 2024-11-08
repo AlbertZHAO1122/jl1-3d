@@ -1,6 +1,13 @@
 {
   "name": "jl1-3d",
   "version": "0.1.0",
+  "description": "jl1-3d",
+  "keywords": [
+    "jl1",
+    "3d",
+    "threejs"
+  ],
+  "author": "1026",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
