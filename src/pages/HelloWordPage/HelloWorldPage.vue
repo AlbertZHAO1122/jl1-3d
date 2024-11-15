@@ -5,9 +5,7 @@ export default {
 </script>
 
 <template>
-  <HelloWorld
-      :msg = "XXXXXXXXXXXXX"
-  />
+  <HelloWorld />
 </template>
 
 <style scoped>

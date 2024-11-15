@@ -22,6 +22,13 @@ export default {
         <h3>jl1-3d组件测试页面</h3>
       </el-header>
       <el-main style="display: flex" >
+        <el-card style="max-width: 220px; margin-left: 30px" @click=toHelloWorldPage >
+          <template #header>HelloWorld</template>
+          <img
+              src='testPage/hello.png'
+              style="width: 100%"
+          />
+        </el-card>
         <el-card style="max-width: 220px; margin-left: 30px" @click=toLandDisplayPage >
           <template #header>陆地3D地块</template>
           <img
@@ -33,13 +40,6 @@ export default {
           <template #header>海岛3D地块</template>
           <img
               src='testPage/Island.png'
-              style="width: 100%"
-          />
-        </el-card>
-        <el-card style="max-width: 220px; margin-left: 30px" @click=toHelloWorldPage >
-          <template #header>HelloWorld</template>
-          <img
-              src='testPage/hello.png'
               style="width: 100%"
           />
         </el-card>
